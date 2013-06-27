@@ -1,6 +1,5 @@
 (ns tailrecursion.boot.middleware.pom
   (:require
-   [tailrecursion.boot.tmpregistry :refer [mk mkdir exists? unmk]]
    [tailrecursion.boot.dispatch :as dispatch]
    [clojure.java.io :as io])
   (:import
