@@ -44,13 +44,13 @@ The core version declaration tells the boot loader which version of the boot
 core to use:
 
 ```clojure
-#tailrecursion.boot.core/version "2.0.0"
+#tailrecursion.boot.core/version "2.3.1"
 ```
 
 Any remaining forms in the script file are evaluated in the boot environment:
 
 ```clojure
-(set-env! :dependencies '[[riddley "0.3.4"]])
+(set-env! :dependencies '[[tailrecursion/boot.task "2.1.2"]])
 (require '[clojure.string :refer [join]])
 
 (defn -main [& args]
